@@ -61,10 +61,10 @@ def solve_bvp_segment(x0, xf, p_guess, z_guess):
 
 # Define waypoints 
 waypoints = [
-    np.array([0, 0, 0]),  # Start
-    np.array([2, 2, np.pi/4]),  # Waypoint 1
-    np.array([4, 3, np.pi/6]),  # Waypoint 2
-    np.array([6, 5, np.pi/3])   # Final point
+    np.array([0, 0, 0]),  
+    np.array([2, 2, np.pi/4]), 
+    np.array([4, 3, np.pi/6]), 
+    np.array([6, 5, np.pi/3])  
 ]
 
 p_guess = np.array([0.1, 0.1, 0.1])
